@@ -11,7 +11,7 @@ const settings = {
     name: "MARENTZE",
 
     // Tvoj email
-    email: "tvojmail@gmail.com",
+    email: "markozivkovic.yt@gmail.com",
 
     // Najnoviji YouTube video
     latestVideo: "https://www.youtube.com/watch?v=VIDEO_ID",
@@ -25,13 +25,13 @@ const settings = {
         {
             name: "YouTube",
             icon: "▶",
-            url: "https://youtube.com/@TVOJ_KANAL"
+            url: "https://youtube.com/@marentze"
         },
 
         {
             name: "TikTok",
             icon: "♪",
-            url: "https://tiktok.com/@TVOJ_PROFIL"
+            url: "https://tiktok.com/@marentze"
         },
 
         {
