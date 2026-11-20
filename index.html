@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="sr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,93 +9,177 @@
 
     <title>MARENTZE | Official Links</title>
 
+    <meta name="description" content="MARENTZE - Official gaming and social links.">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ANIMIRANA POZADINA -->
-    <video class="background-video" autoplay muted loop playsinline>
+    <!-- ANIMIRANA BRAWL STARS POZADINA -->
+
+    <video class="background-video"
+           autoplay
+           muted
+           loop
+           playsinline>
+
         <source src="background.mp4" type="video/mp4">
+
     </video>
 
+    <!-- TAMNI PREKRIVAC PREKO POZADINE -->
+
     <div class="background-overlay"></div>
+
+    <!-- ANIMIRANE CESTICE -->
+
     <div class="particles"></div>
 
-    <!-- GLAVNI SADRŽAJ -->
+
+    <!-- GLAVNI SADRZAJ -->
+
     <main class="container">
 
+
         <!-- PROFIL -->
+
         <section class="profile">
 
             <div class="profile-image">
-                <img src="profile.png" alt="MARENTZE profile">
+
+                <img
+                    src="profile.png"
+                    alt="MARENTZE profile"
+                >
+
             </div>
 
-            <h1>MARENTZE</h1>
+            <!-- IME SE UCITAVA IZ SCRIPT.JS -->
+
+            <h1 id="profile-name">MARENTZE</h1>
 
             <p class="subtitle">
                 OFFICIAL SOCIAL LINKS
             </p>
 
             <div class="online-status">
+
                 <span></span>
+
                 ONLINE
+
             </div>
 
         </section>
 
-        <!-- DRUŠTVENE MREŽE -->
+
+        <!-- DRUSTVENE MREZE -->
+
         <section class="links-section">
 
-            <h2>MY SOCIALS</h2>
+            <h2>🌐 MY SOCIALS</h2>
 
-            <div id="social-links" class="social-links">
-                <!-- Linkovi se dodaju preko JavaScript-a -->
+            <div
+                id="social-links"
+                class="social-links"
+            >
+
+                <!-- LINKOVI SE AUTOMATSKI DODAJU IZ SCRIPT.JS -->
+
             </div>
 
         </section>
 
-        <!-- NAJNOVIJI VIDEO -->
+
+        <!-- NAJNOVIJI YOUTUBE VIDEO -->
+
         <section class="video-section">
 
             <h2>🔥 LATEST VIDEO</h2>
 
-            <a id="latest-video" href="#" target="_blank" rel="noopener">
+            <a
+                id="latest-video"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
                 <div class="video-thumbnail">
-                    <img id="video-thumbnail" src="thumbnail.jpg"
-                         alt="Latest video">
-                    <div class="play-button">▶</div>
+
+                    <img
+                        id="video-thumbnail"
+                        src="thumbnail.jpg"
+                        alt="MARENTZE latest video"
+                    >
+
+                    <div class="play-button">
+                        ▶
+                    </div>
+
                 </div>
 
                 <div class="video-info">
-                    <span>WATCH MY LATEST VIDEO</span>
-                    <span class="video-arrow">↗</span>
+
+                    <span>
+                        WATCH MY LATEST VIDEO
+                    </span>
+
+                    <span class="video-arrow">
+                        ↗
+                    </span>
+
                 </div>
+
             </a>
 
         </section>
 
-        <!-- EMAIL -->
+
+        <!-- KONTAKT EMAIL -->
+
         <section class="contact-section">
 
-            <h2>CONTACT ME</h2>
+            <h2>✉ CONTACT ME</h2>
 
-            <a id="email-link" href="#">
-                ✉ <span id="email-text">Email</span>
+            <a
+                id="email-link"
+                href="#"
+            >
+
+                ✉
+
+                <span id="email-text">
+                    Email
+                </span>
+
             </a>
 
         </section>
 
+
+        <!-- FOOTER -->
+
         <footer>
-            <p>© 2026 MARENTZE</p>
-            <p>MADE WITH ❤️</p>
+
+            <p>
+                © 2026 <span id="footer-name">MARENTZE</span>
+            </p>
+
+            <p>
+                MADE WITH ❤️
+            </p>
+
         </footer>
 
+
     </main>
+
+
+    <!-- JAVASCRIPT -->
 
     <script src="script.js"></script>
 
 </body>
-</html>
 
+</html>
