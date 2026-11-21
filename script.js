@@ -14,7 +14,7 @@ const settings = {
     email: "markozivkovic.yt@gmail.com",
 
     // Najnoviji YouTube video
-    latestVideo: "https://www.youtube.com/watch?v=VIDEO_ID",
+    latestVideo: "https://www.youtube.com/watch?v=MVuOOcCWkIU",
 
     // Slika najnovijeg videa
     videoThumbnail: "thumbnail.jpg",
@@ -37,13 +37,13 @@ const settings = {
         {
             name: "Discord",
             icon: "💬",
-            url: "https://discord.gg/TVOJ_INVITE"
+            url: "https://discord.com/invite/9QYHA74xcW"
         },
 
         {
             name: "Instagram",
             icon: "📸",
-            url: "https://instagram.com/TVOJ_PROFIL"
+            url: "https://www.instagram.com/markozivkovic_/"
         }
 
     ]
